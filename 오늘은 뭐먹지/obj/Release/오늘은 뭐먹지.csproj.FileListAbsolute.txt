@@ -1,0 +1,15 @@
+C:\Users\023\Desktop\오늘은 뭐먹지\오늘은 뭐먹지\bin\Release\오늘은 뭐먹지.exe.config
+C:\Users\023\Desktop\오늘은 뭐먹지\오늘은 뭐먹지\bin\Release\오늘은 뭐먹지.exe
+C:\Users\023\Desktop\오늘은 뭐먹지\오늘은 뭐먹지\bin\Release\오늘은 뭐먹지.pdb
+C:\Users\023\Desktop\오늘은 뭐먹지\오늘은 뭐먹지\obj\Release\오늘은_뭐먹지.DevInfo.resources
+C:\Users\023\Desktop\오늘은 뭐먹지\오늘은 뭐먹지\obj\Release\오늘은_뭐먹지.EvalForm.resources
+C:\Users\023\Desktop\오늘은 뭐먹지\오늘은 뭐먹지\obj\Release\오늘은_뭐먹지.InsertForm.resources
+C:\Users\023\Desktop\오늘은 뭐먹지\오늘은 뭐먹지\obj\Release\오늘은_뭐먹지.MainForm.resources
+C:\Users\023\Desktop\오늘은 뭐먹지\오늘은 뭐먹지\obj\Release\오늘은_뭐먹지.MenuMap.resources
+C:\Users\023\Desktop\오늘은 뭐먹지\오늘은 뭐먹지\obj\Release\오늘은_뭐먹지.MenuSearch.resources
+C:\Users\023\Desktop\오늘은 뭐먹지\오늘은 뭐먹지\obj\Release\오늘은_뭐먹지.MiniBrowser.resources
+C:\Users\023\Desktop\오늘은 뭐먹지\오늘은 뭐먹지\obj\Release\오늘은_뭐먹지.Properties.Resources.resources
+C:\Users\023\Desktop\오늘은 뭐먹지\오늘은 뭐먹지\obj\Release\오늘은_뭐먹지.WeekForm.resources
+C:\Users\023\Desktop\오늘은 뭐먹지\오늘은 뭐먹지\obj\Release\오늘은 뭐먹지.csproj.GenerateResource.Cache
+C:\Users\023\Desktop\오늘은 뭐먹지\오늘은 뭐먹지\obj\Release\오늘은 뭐먹지.exe
+C:\Users\023\Desktop\오늘은 뭐먹지\오늘은 뭐먹지\obj\Release\오늘은 뭐먹지.pdb

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Daum 지도 시작하기</title>
+</head>
+<body>
+	<div id="map" style="width:660px;height:636px;"></div>
+<script type="text/javascript"
+src="http://apis.daum.net/maps/maps3.js?apikey=2414c8a4bc86a8ae8602943cda401c98"></script>
+	<script type="text/javascript">
+
+// 지도 생성 - 구현완료
+		var container = document.getElementById('map');
+		var options = {
+			center: new daum.maps.LatLng(33.450701, 126.570667),
+			level: 2
+		};
+
+//중심좌표 이동시키기 - 구현 완료
+function MoveToMap(x,y) {
+ 
+    var moveLatLon = new daum.maps.LatLng(x, y);
+    map.panTo(moveLatLon);  
+	
+	var marker = new daum.maps.Marker({
+    position: new daum.maps.LatLng(x,y)});
+    marker.setMap(map);
+}
+
+// 인포윈도우 ( 말풍선 )  - 구현 완료
+function InfoWindow(name, x, y)
+{
+	var infowindow = new daum.maps.InfoWindow({
+    map: map, 
+    position : new daum.maps.LatLng(x, y), 
+    content : name,
+    removable : true
+});
+}
+
+
+// 지도 1단계 확대 - 구현 완료
+function zoomIn() 
+{        
+    var level = map.getLevel();
+    map.setLevel(level - 1);
+}    
+
+// 지도 1단계 축소 - 구현 완료
+function zoomOut() 
+{  
+    var level = map.getLevel(); 
+    map.setLevel(level + 1);
+}    
+
+
+// 모든 마크 제거 시키기 - 구현 중
+function DeleteMark()
+{
+	setMap(null);
+}
+
+function RoadMap()
+{
+	map.setMapTypeId(daum.maps.MapTypeId.ROADMAP); 
+}
+
+function HybridMap()
+{
+	map.setMapTypeId(daum.maps.MapTypeId.HYBRID);    
+}
+
+
+// 실제 맵 띄우기 - 구현완료
+var map = new daum.maps.Map(container, options);
+
+</script>
+</body>
+</html>
